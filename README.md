@@ -2,7 +2,7 @@
 Game Space Invader 
 
 - Game criado para fins de estudo.
--Aula ministarda pelo Professor Edson Maia.
+- Aula ministarda pelo Professor Edson Maia.
 
 #TECNOLOGIAS
 - HTML
