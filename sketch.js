@@ -145,7 +145,7 @@ function setup() {
   // criar tela 900x600 px
   createCanvas(900, 600)
   
-  pfundo = loadImage('/images/fundoazul1.png');
+  pfundo = loadImage('./images/fundoazul1.png');
 
   // criar o vetor (pos X, pos Y, pos Z)
   posicaoNave = createVector(425, 550)
