@@ -165,6 +165,8 @@ function draw() {
 
   background(pfundo);
 
+  
+
   // cor do texto do placar
   fill(255) // cor branca
   text('Space Invaders criado por Marcelo Pires', 450, 25)
