@@ -1,4 +1,5 @@
 // variaveis no escopo global
+let pfundo
 let imagemNave
 let imagemLaser
 let imagemFogo1
@@ -139,10 +140,12 @@ function preload() {
 // executar codigos uma vez
 function setup() {
   //.loop() repete sempre 
-  //trilha.loop() // .play() reproduz so uma vez ate o final
-  
+  trilha.loop() // .play() reproduz so uma vez ate o final
+
   // criar tela 900x600 px
   createCanvas(900, 600)
+  
+  pfundo = loadImage('/images/fundoazul1.png');
 
   // criar o vetor (pos X, pos Y, pos Z)
   posicaoNave = createVector(425, 550)
@@ -159,10 +162,9 @@ function setup() {
 
 // executar codigos sempre de tempo em tempo
 function draw() {
-  
-  // cor de fundo
-  background(0) // 150
-    
+
+  background(pfundo);
+
   // cor do texto do placar
   fill(255) // cor branca
   text('Space Invaders criado por Marcelo Pires', 450, 25)
